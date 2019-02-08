@@ -12,3 +12,5 @@ def check(number):
         return 'Fizz'
     elif divisible_by_number(number, 5) == True:
         return 'Buzz'
+    else:
+        return number

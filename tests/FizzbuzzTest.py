@@ -18,3 +18,6 @@ def test_returns_fizz_for_divisible_by_3():
 
 def test_returns_buzz_for_divisible_by_5():
     assert FizzBuzz.check(5) == 'Buzz'
+
+def test_returns_number_for_non_3_or_5():
+    assert FizzBuzz.check(17) == 17
