@@ -16,3 +16,6 @@ def check(number):
         return 'Buzz'
     else:
         return number
+
+for number in range(1, 100):
+    check(number)
