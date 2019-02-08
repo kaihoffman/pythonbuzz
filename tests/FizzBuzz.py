@@ -6,3 +6,9 @@ def divisible_by_5(number):
 
 def divisible_by_number(number, divisor):
     return number % divisor == 0
+
+def check(number):
+    if divisible_by_number(number, 3) == True:
+        return 'Fizz'
+    elif divisible_by_number(number, 5) == True:
+        return 'Buzz'
